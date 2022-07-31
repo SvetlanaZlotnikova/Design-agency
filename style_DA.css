@@ -3,6 +3,9 @@
     padding: 0;
     font-family: 'Nunito Sans', sans-serif;
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 100%;
     text-decoration: none;
 }
 
@@ -12,6 +15,8 @@
     padding: 0 20px;
     margin: 0 auto;
     position: fixed;
+    height: 83px;
+    font-size: 11px;
 }
 
 .menu_yellow {
@@ -22,6 +27,23 @@
     color: #FFFFFF;
 }
 
-.header-menu {
+.button {
+width: 161px;
+height: 37px;
+background-color: #E3B873;
+border-radius: 5px;
+}
 
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    
+}
+.pack {
+    height: 200px;
+    border: 2px solid black;
+}
+h2 {
+    font-size: large;
 }

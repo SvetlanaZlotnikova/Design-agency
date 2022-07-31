@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #131313;
+    max-width: 1438px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: fixed;
+}
+
+.menu_yellow {
+    color: #E3B873;
+}
+
+.menu_white {
+    color: #FFFFFF;
+}
+
+.header-menu {
+
+}

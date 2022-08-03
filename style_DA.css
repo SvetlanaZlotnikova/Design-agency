@@ -47,3 +47,28 @@ border-radius: 5px;
 h2 {
     font-size: large;
 }
+.galery_bg {
+    background-image: url(chandalier.png);
+    height: 864px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.galery {
+    height: 1017.86px;
+}
+.photo1 {
+    width: 353px;
+    height: 556px;
+}
+.photo2 {
+    width: 353px;
+    height: 349px;
+}
+.photo3 {
+    width: 353px;
+    height: 275px;
+}
+.photo4 {
+    width: 353px;
+    height: 625px;
+}

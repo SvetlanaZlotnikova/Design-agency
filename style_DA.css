@@ -70,5 +70,14 @@ h2 {
 }
 .photo4 {
     width: 353px;
-    height: 625px;
+    height: 625px;  
+}
+.galery_photobox {
+    display: grid;
+    margin-left: 40%;
+    grid-template-columns: 353px 353px;
+    grid-template-rows: 556px 625px;
+}
+.brd {
+    border: 1px solid black;
 }

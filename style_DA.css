@@ -9,6 +9,13 @@ body * {
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 1300px) {
+  body {
+      max-width: 100%;
+      padding: 0 18px;
+  }
+}
+
 .logo {
   text-transform: uppercase;
   color: #e3b873;
@@ -26,6 +33,14 @@ body * {
 .header {
   background-color: #181818;
 }
+
+@media screen and (max-width: 1300px) {
+  header {
+      max-width: 100%;
+      padding: 0 18px;
+  }
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -832,7 +847,7 @@ border: none;
   position: relative;
   background-image: url('../Design-agency/Group22.png'); 
   background-size: cover;
-  width: 1440px;
+  max-width: 1440px;
   height: 864px;
   margin-top: 1950px;
   opacity: 2;
@@ -1091,7 +1106,7 @@ margin-left: 50px;
 }
 
 .adress {
-  width: 1440px;
+  max-width: 1440px;
   height: 954px;
   background-image: url(../Design-agency/image72.png);
   margin-top: -220px;
@@ -1126,6 +1141,13 @@ margin-left: 682px;
 
 .footer {
   background-color: #181818;
+}
+
+@media screen and (max-width: 1300px) {
+  footer {
+      max-width: 100%;
+      padding: 0 18px;
+  }
 }
 
 .footer-container {

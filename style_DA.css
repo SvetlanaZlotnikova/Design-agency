@@ -9,13 +9,6 @@ body * {
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1300px) {
-  body {
-      max-width: 100%;
-      padding: 0 18px;
-  }
-}
-
 .logo {
   text-transform: uppercase;
   color: #e3b873;
@@ -32,13 +25,6 @@ body * {
 
 .header {
   background-color: #181818;
-}
-
-@media screen and (max-width: 1300px) {
-  header {
-      max-width: 100%;
-      padding: 0 18px;
-  }
 }
 
 .header-container {
@@ -1143,13 +1129,6 @@ margin-left: 682px;
   background-color: #181818;
 }
 
-@media screen and (max-width: 1300px) {
-  footer {
-      max-width: 100%;
-      padding: 0 18px;
-  }
-}
-
 .footer-container {
   display: flex;
   justify-content: space-between;
@@ -1160,4 +1139,234 @@ margin-left: 682px;
   max-width: 1440px;
   margin: 0 auto; 
   position: relative;
+}
+
+@media (max-width: 1300px) {
+  .header-container {
+    max-width: 100%;
+}
+.nav {
+  display: none;
+}
+.number {
+  color: #ffffff;
+}
+.button {
+  max-width: 340px;
+  border-radius: 0;
+}
+.header .button {
+  display: none;
+}
+.pack_turnkey {
+  padding: 85px 0 61px;
+}
+.get {
+  width: 100%;
+  margin-bottom: 32px;
+  font-size: 14px;
+  line-height: 19px;
+}
+.application {
+  margin-bottom: 26px;
+}
+.left_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 0;
+}
+.projects {
+  margin-bottom: 22px;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.07em;
+}
+.only {
+  max-width: 311px;
+  margin-bottom: 72px;
+  font-size: 11px;
+  line-height: 17px;
+  text-align: center;
+}
+.projects_left_section {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+.arrows {
+  position: absolute;
+  top: 50%;
+  margin-top: -18px;
+  width: 36px;
+  height: 36px;
+  border: none;
+  z-index: 1;
+  left: 14px;
+  right: 14px;
+}
+.online_control {
+  margin-top: -1px;
+  padding-bottom: 88px;
+  background-color: #181818;
+}
+.black-chairs .video {
+  width: 100%;
+}
+.facility {
+  margin-top: 51px;
+  font-size: 11px;
+  line-height: 19px;
+  color: #ffffff;
+  text-align: center;
+}
+.facility::before {
+  top: -22px;
+}
+.form {
+  position: relative;
+  width: 100%;
+  justify-content: start;
+  margin-top: 77px;
+}
+.label, .input {
+  width: 100%;
+}
+.input:focus {
+  outline-color: #ffffff;
+}
+.form .label {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.form .label:first-child {
+  margin-bottom: 63px;
+}
+.form .input, .question-form .input {
+  padding: 8px 0;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #181818;
+  border-bottom: 1px solid #ffffff;
+}
+.form .input::placeholder {
+  color: #ffffff;
+}
+.form-wrapper {
+  width: 100%;
+}
+.form .button {
+  position: absolute;
+  left: 0;
+  bottom: -115px;
+  margin-left: 0;
+}
+.form .first_checkbox {
+  margin-top: 26px;
+}
+.first_checkbox .agree {
+  color: #ffffff;
+}
+.blocks {
+  padding-top: 83px;
+  padding-bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 107px;
+}
+.blue_room .orange_room .black_room{
+  position: relative;
+  margin-right: 0;
+  margin-bottom: 80px;
+  max-width: 340px;
+}
+.block1 .block2 .block3{
+  width: 270px;
+  margin: 0;
+  margin-left: -1px;
+  margin-top: 223px;
+  padding: 21px 31px 37px;
+}
+.Redecorating .Overhaul .Designer_Repair{
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.block1 .block2 .block3 li {
+  line-height: 22px;
+}
+.price900 .price1800 .price4000{
+  position: absolute;
+  left: -31px;
+  bottom: -20px;
+  padding: 11px 19px;
+  font-size: 15px;
+}
+.measurements {
+  display: none;
+  background: linear-gradient(180deg, #ffffff 52%, #181818 52%);
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 0;
+  padding-bottom: 52px;
+}
+.realize {
+  max-width: 240px;
+  margin-bottom: 24px;
+}
+.list_of_design {
+  display: none;
+}
+.reviews {
+  display: none;
+}
+.questions {
+  margin-top: -1px;
+  padding-top: 0;
+  padding-bottom: 60px;
+  background: #181818;
+}
+.container_questions {
+  position: relative;
+  top: -1px;
+  left: 0;
+  margin-left: 0;
+  width: 100%;
+}
+.contacts_name {
+  width: 100%;
+}
+.contacts_name label:first-child {
+  margin-right: 0;
+}
+.contacts_name label:first-child, .qcontacts_name label:nth-child(2) {
+  margin-bottom: 63px;
+}
+.contacts_name .label_checkbox2 {
+  width: 100%;
+  margin-top: 22px;
+  margin-bottom: 67px;
+  justify-content: start;
+}
+.contacts_name .button {
+  width: 100%;
+}
+.adress {
+  max-width: 320px;
+  font-size: 18px;
+  line-height: 25px;
+}
+.map {
+  width: 100%;
+}
+.icons {
+  width: 100px;
+}
+.icons svg {
+  width: 39px;
+  height: 39px;
+}
+.footer {
+  display: none;
+}
 }
